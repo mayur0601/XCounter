@@ -7,9 +7,7 @@ export default function App() {
     setCounter(counter+1);
   }
   function decrement(){
-    if(counter>0){
       setCounter(counter-1);
-    }
   }
   return (
     <main>
